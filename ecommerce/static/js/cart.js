@@ -52,6 +52,7 @@ function updateDisplay(total,items,id,action){
 
 function addCookieItem(price,productId, action){
   console.log('User is not authenticated')
+
   if (action == 'add'){
     if (cart[productId] == undefined){
       cart[productId] = {'quantity':1}
